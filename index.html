@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards do Corinthians</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🦅 Flashcards do Corinthians 🦅</h1>
+        <p>Clique no card para descobrir a resposta!</p>
+    </header>
+
+    <main class="flashcard-container">
+        <!-- Card 1 -->
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>Em que ano o Corinthians foi fundado?</h3>
+                </div>
+                <div class="card-back">
+                    <p>O Corinthians foi fundado no dia <strong>1º de setembro de 1910</strong> no bairro do Bom Retiro.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>Contra quem o Corinthians jogou na final do Mundial de Clubes da FIFA em 2012?</h3>
+                </div>
+                <div class="card-back">
+                    <p>O Corinthians venceu o <strong>Chelsea</strong> por 1 a 0 no Japão, com gol de Paolo Guerrero.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>Qual é o nome oficial do estádio do Corinthians, conhecido popularmente como Arena Corinthians?</h3>
+                </div>
+                <div class="card-back">
+                    <p>O nome oficial é <strong>Neo Química Arena</strong>, localizado em Itaquera, na Zona Leste de São Paulo.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function flipCard(card) {
+            card.classList.toggle('flipped');
+        }
+    </script>
+
+</body>
+</html>
