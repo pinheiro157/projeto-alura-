@@ -2,6 +2,12 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #121212;
+    /* Adiciona o escudo oficial do Corinthians centralizado no fundo */
+    background-image: linear-gradient(rgba(18, 18, 18, 0.85), rgba(18, 18, 18, 0.85)), url('https://wikimedia.org');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 450px; /* Controla o tamanho do escudo no fundo */
     color: #ffffff;
     margin: 0;
     padding: 20px;
@@ -69,7 +75,7 @@ header h1 {
     padding: 20px;
     box-sizing: border-box;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.15);
 }
 
 /* Estilo da Frente (Pergunta) */
@@ -97,3 +103,4 @@ header h1 {
     line-height: 1.4;
     margin: 0;
 }
+
